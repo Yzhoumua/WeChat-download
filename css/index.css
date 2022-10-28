@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(247, 247, 247);
+}
+.bjbox{
+    background-color: #2aae67;
+    height:720px;
+}
+.bjbox nav{
+    text-align: right;
+    padding: 30px 40px 0 0;
+}
+.bjbox nav li{
+    display: inline-block;
+    border-right: solid 1px hsla(0,0%,100%,.6);
+}
+.bjbox nav li:last-child{
+    border-right: none;
+}
+div nav li a{
+    padding:0 8px;
+    font-size: 16px;
+    color:hsla(0,0%,100%,.6);
+}
+.bjbox nav li a:hover{
+    color: hsla(0,0%,100%,.9);
+}
+.active{
+    color: hsla(0,0%,100%,.9);
+}
+
+
+header .log{
+    width: 490px;
+    margin-top: 100px;
+    color: hsla(0,0%,100%,.9);
+    text-align: center;
+    border-bottom:solid 1px rgba(255, 255, 255, 0.158);
+    padding-bottom: 50px;
+}
+header .log i{
+    font-size:62px;
+}
+header .log span{
+    font-size: 40px;
+    margin-left: 15px;
+}
+header .nvacn{
+    display: block;
+    width: 490px;
+}
+header .nvacn li{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+header .nvacn li span{
+    color: hsla(0,0%,100%,.6);;
+}
+header .nvacn li a{
+   color: hsla(0,0%,100%,.9);;
+}
+header .app{
+    width: 730px;
+    display: block;
+    margin-top:80px ;
+}
+header .app li{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: hsla(0,0%,100%,.15);
+    font-size: 14px;
+    text-align: center;
+    margin-left: 26px;
+    
+}
+header .app li a{
+    color: hsla(0,0%,100%,.9);
+}
+header .app li:hover{
+    background-color: rgba(255, 255, 255, 0.336);
+}
+header .app li a i{
+    display: block;
+    font-size: 40px;
+    margin-top:25px;
+}
+header .app li a span{
+    margin-top: 10px;
+   display:inline-block;
+   width: 84px;
+}
+
+.center{
+    background-color: #2aae67;
+    height: 150px;
+    border-radius: 0 0 50% 50%;
+}
+.center nva{
+    display: block;
+    width: 470px;
+}
+.center nva li{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: hsla(0,0%,100%,.15);
+    margin-left: 10px;
+    width: 220px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+}
+.center nva li:hover{
+    background-color: rgba(255, 255, 255, 0.336);
+}
+.center nva li a i{
+    font-size: 20px;
+}
+.center nva li a{
+    font-size: 18px;
+    color:hsla(0,0%,100%,.9);
+}
+
+
+.xcxbox .xcx{
+    width: 1030px;
+    margin-top:60px;
+}
+.xcxbox .xcx div a{
+    float: left;
+    text-align: center;
+    background:#fff ;
+    border-radius: 10px;
+    margin:20px 0 0 20px;
+    width: 235px;
+    height: 200px;
+    font-size: 20px;
+    display: block;
+    color: black;
+}
+.xcxbox .xcx div a .icon-xiaoyouxi{
+    color: #dfdf0f;
+}
+.xcxbox .xcx div a .icon-souyisou{
+    color: #0fd5ed;
+}
+.xcxbox .xcx div a .icon-weixinzhifu{
+    color: #1df308;
+}
+.xcxbox .xcx div a .icon-hongbao{
+    color: #d7290d;
+}
+.xcxbox .xcx div a .icon-store{
+    color: #d7290d;
+}
+.xcxbox .xcx div a i{
+    font-size:40px;
+    text-align: center;
+    width: 235px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.xcxbox .xcx div a span{
+    line-height:55px;
+}
+.xcxbox .xcx div:hover{
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 100px;
+    background: #fff;
+}
+footer .lastfoot{
+    width: 500px;
+    height: 120px;
+}
+footer .lastfoot nav li{
+    display: inline-block;
+    margin-top: 30px;
+    border-right:solid 1px rgba(0,0,0,.7) ;
+}
+footer .lastfoot p{
+    font-size: 10px;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer .lastfoot nav li a{
+    color: rgba(0,0,0,.7);
+    font-size: 14px;
+    
+    
+}
+footer .lastfoot nav li a:hover{
+    text-decoration:underline
+}
+footer .lastfoot nav li:last-child{
+    border-right: none;
+}
